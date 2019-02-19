@@ -6,7 +6,7 @@
 const express = require('express');
 const logger = console;
 
-const defaultPort = 3000;
+const defaultPort = 4000;
 const port = process.env.PORT || defaultPort;
 const serviceUrl = '/components';
 
