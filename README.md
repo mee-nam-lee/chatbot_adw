@@ -9,4 +9,8 @@ oracle chatbot과 Autonomous Data Warehouse 연계 샘플 입니다.
 
 ## Conversation Message Model 이용 예 (layout.js)
 
-[챗봇 Layout 예제]()
+[챗봇 Layout 예제](https://mee-nam-lee.github.io/chatbot/2019/%EC%B1%97%EB%B4%87-Layout/)
+
+## Oracle Content and Experience(CECS)와 연동 - 챗봇에서 CECS의 컨텐츠 검색하기 예 (searchcecs.js)
+
+[Digital Assistant(챗봇)와 Content and Experience(CECS) 연동하기](https://mee-nam-lee.github.io/chatbot/2019/chatbot_cecs/)
