@@ -1,4 +1,16 @@
-# chatbot 샘플
+# Chatbot 샘플
+
+## Development
+```shell
+cd bot-start
+npm install
+node index.js
+```
+
+# Simple Custom Component Test
+```shell
+curl -H "Content-Type: application/json" -d @./spec/store.req.json localhost:4000/components/ListStores
+```
 
 ## oracle database 연계 샘플 (oracledb.js)
 
@@ -14,3 +26,6 @@ oracle chatbot과 Autonomous Data Warehouse 연계 샘플 입니다.
 ## Oracle Content and Experience(CECS)와 연동 - 챗봇에서 CECS의 컨텐츠 검색하기 예 (searchcecs.js)
 
 [Digital Assistant(챗봇)와 Content and Experience(CECS) 연동하기](https://mee-nam-lee.github.io/chatbot/2019/chatbot_cecs/)
+
+# Custom Component Package
+Oracle Node.js SDK

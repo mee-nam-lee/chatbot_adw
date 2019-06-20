@@ -1,0 +1,41 @@
+{
+    "1" : {
+        "name": "삼성봉은사점",
+        "address":  "서울특별시 강남구 삼성1동 봉은사로 524",
+        "lat": "37.512633",
+        "long": "127.057482",
+        "hours": "월-금 10am-8pm, 토 10am-8pm, 일 10am-7pm",
+        "phone": "02-776-5858",
+        "url": "https://raw.githubusercontent.com/mee-nam-lee/chatbot_lecture/master/labfiles/map/map1.jpg"
+    },
+
+    "2" : {
+        "name": "삼성역점",
+        "address":  "대한민국 서울특별시 강남구 삼성동 161-17",
+        "lat": "37.513455",
+        "long": "127.062740",
+        "hours": "월-금 10am-8pm, 토-일 10am-8pm",
+        "phone": "02-402-0914",
+        "url": "https://raw.githubusercontent.com/mee-nam-lee/chatbot_lecture/master/labfiles/map/map2.jpg"
+    },
+
+    "3" : {
+        "name": "잠실본점",
+        "address":  "대한민국 서울특별시 송파구 잠실동 올림픽로 104",
+        "lat": "37.511347",
+        "long": "127.082192",
+        "hours": "월-금 10am-8pm, 토 10am-8pm, 일요일 휴무",
+        "phone": "02-550-6239",
+        "url": "https://raw.githubusercontent.com/mee-nam-lee/chatbot_lecture/master/labfiles/map/map3.jpg"
+    }
+    ,
+    "4" : {
+        "name": "잠실역점",
+        "address":  "대한민국 서울특별시 송파구 잠실6동",
+        "lat": "37.513872",
+        "long": "127.100602",
+        "hours": "월-금 10am-8pm, 토 10am-8pm, 일요일 휴무",
+        "phone": "02-550-6249",
+        "url": "https://raw.githubusercontent.com/mee-nam-lee/chatbot_lecture/master/labfiles/map/map4.jpg"
+    }
+}
