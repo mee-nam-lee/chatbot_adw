@@ -1,0 +1,85 @@
+  
+<html>
+  <head>
+    <title>
+      WebView
+   </title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">  
+
+  <script src="/js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript">
+   $(document).ready(function(){
+    $("#ButtonGet").click(function(){
+      var items=document.getElementsByName('check');
+      var list = "<%= JSON.stringify(laptop) %>" ;
+ //     console.log(list);
+      list = list.replace(/&#34;/g,'\"');
+ //     console.log(list);
+      list = JSON.parse(list);
+     // var _list = JSON.parse(list);
+    //  var selectedItems= { laptops : [] };
+      var selectedItems=  {} ;
+      var selected = 0;
+   //   let selected ;
+
+				for(var i=0; i<items.length; i++){
+          if(items[i].type=='checkbox' && items[i].checked==true) {
+                selected ++;
+                console.log(list[items[i].value]);
+              //  selectedItems.laptops.push(list[items[i].value]);
+              //  selectedItems.push(list[items[i].value]);
+              selectedItems = list[items[i].value];
+          }  
+        }
+        console.log(JSON.stringify(selectedItems));
+        if (selected > 1) {
+          alert('하나만 선택해 주세요');
+        } else if ( selected == 1) {
+          $.post("<%=callbackUrl%>", JSON.stringify(selectedItems) , function(data){
+
+          });
+
+          $( '#result' ).text( '창을 닫고 챗봇으로 돌아가세요' );
+        } else {
+            alert('선택된 것이 없습니다.');
+        }
+
+    });
+
+});
+
+  </script>
+
+  </head>
+  <body>
+    
+    <table> 
+      <tr>
+        <td colspan="7"><p style="font-size: 20px"><%=param1%></p></td>
+      </tr>
+      <tr>
+          <td></td>
+          <td></td>
+          <td>제조사</td>
+          <td>모델명</td>
+          <td>사양</td>
+          <td>무게</td>
+          <td>가격</td>
+      </tr>  
+      <% for(let i = 0; i < laptop.length; i++) { %>
+      <tr>
+      <td><input type="checkbox" name="check" value=<%=i%> /></td>
+      <td><img src="<%=laptop[i].image%>"/></td>
+      <td><%=laptop[i].maker%></td>
+      <td><a href="<%=laptop[i].link%>"><%=laptop[i].model%></a></td>
+      <td><%=laptop[i].spec%></td>
+      <td><%=laptop[i].weight%></td>
+      <td><%=laptop[i].price%></td>
+      </tr>
+     <% } %> 
+</table>
+  <div >
+    <button id="ButtonGet" type="button" >선택완료</button>
+    <p id="result"></p>
+  </body>
+</html>

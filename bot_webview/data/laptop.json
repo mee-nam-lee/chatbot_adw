@@ -1,0 +1,75 @@
+[
+  {
+    "maker" : "ASUS",
+    "model" : "TUF",
+    "spec" : "TUF FX505GM-BQ234 (1TB)",
+    "weight" : "2,2kg",
+    "price" : "1,046,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/851/896/img/6896851_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=6896851&cate=11316920"
+
+  },  
+  {
+    "maker" : "LG 전자",
+    "model" : "울트라기어 GT",
+    "spec" : "GT 15UD780-PX50K (기본)",
+    "weight" : "1.9kg",
+    "price" : "955,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/988/737/img/5737988_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=5737988&cate=11316920"
+  },
+  {
+    "maker" : "LG 전자 ",
+    "model" : "2019 그램",
+    "spec" : "2in1 14TD990-GX50K (기본)",
+    "weight" : "1.14kg",
+    "price" : "1,346,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/412/713/img/7713412_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=7713412&cate=11316920"
+  },
+  {
+    "maker" : "HP",
+    "model" : "HP 255 G7-6WW80PA",
+    "spec" : "AMD / 라이젠 3 / 레이븐 릿지",
+    "weight" : "1.78kg",
+    "price" : "391,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/022/473/img/7473022_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=7473022&cate=11316920"
+  },
+  {
+    "maker" : "SAMSUNG",
+    "model" : "2019 노트북 Pen S NT950SBV-A58A",
+    "spec" : "2배 향상된 S펜으로 더욱 완벽해진 노트북Pen S",
+    "weight" : "1.49kg",
+    "price" : "1,430,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/728/505/img/7505728_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=7505728&cate=11316920"
+  },
+  {
+    "maker" : "SAMSUNG",
+    "model" : "2018 노트북 9",
+    "spec" : "2018 노트북9 Always NT900X3T-K716A",
+    "weight" : "995g",
+    "price" : "1,258,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/627/766/img/5766627_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=5766627&cate=112758"
+  },
+  {  
+    "maker" : "한성컴퓨터",
+    "model" : "TFG256XT",
+    "spec" : "인텔 / 코어i7-9세대 / 커피레이크-R",
+    "weight" : "1.89kg",
+    "price" : "1,362,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/502/779/img/7779502_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=7779502&cate=11316920"
+  }, 
+  {
+    "maker" : "레노버",
+    "model" : "아이디어패드 S540-15 Raise i5",
+    "spec" : "/ 위스키레이크 / i5-8265U 1.6GHz(3.9GHz)",
+    "weight" : "1.89kg",
+    "price" : "798,000원",
+    "image" : "http://img.danawa.com/prod_img/500000/216/960/img/7960216_1.jpg?shrink=100:100",
+    "link" : "http://prod.danawa.com/info/?pcode=7960216&cate=11316920"
+  }
+]
